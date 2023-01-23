@@ -3,7 +3,6 @@ pkgname=hyprland
 version=0.20.1beta
 revision=1
 build_style=meson
-configure_args="-Dsystemd=disabled"
 hostmakedepends="pkg-config cmake jq wayland-devel hwids glslang"
 makedepends="wayland-devel libdrm-devel libxkbcommon-devel pixman-devel
  wayland-protocols cairo-devel libinput-devel libgbm-devel libglvnd-devel
